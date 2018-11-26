@@ -74,7 +74,7 @@ namespace MegaDesk
         private void AddQuote_FormClosed(object sender, FormClosedEventArgs e)
         {
             var mainMenu = new MainMenu();
-            _mainMenu.Show();
+            mainMenu.Show();
         }
     }
 }
