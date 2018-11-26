@@ -76,5 +76,13 @@ namespace MegaDesk
             var mainMenu = new MainMenu();
             mainMenu.Show();
         }
+
+
+        private void cancelButton_Click(object sender, EventArgs e)
+        {
+            var mainMenu = (MegaDesk)Tag;
+            mainMenu.Show();
+            Close();
+        }
     }
 }

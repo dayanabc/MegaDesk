@@ -1,6 +1,6 @@
-﻿namespace MegaDesk
+﻿namespace WindowsFormsApp1
 {
-    partial class DisplayQuote
+    partial class SearchQuote
     {
         /// <summary>
         /// Required designer variable.
@@ -33,22 +33,23 @@
             // 
             // backButton
             // 
-            this.backButton.Location = new System.Drawing.Point(34, 398);
+            this.backButton.Location = new System.Drawing.Point(37, 399);
             this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(112, 40);
+            this.backButton.Size = new System.Drawing.Size(108, 39);
             this.backButton.TabIndex = 0;
-            this.backButton.Text = "Back";
+            this.backButton.Text = "Cancel";
             this.backButton.UseVisualStyleBackColor = true;
             this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
-            // DisplayQuote
+            // SearchQuote
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.backButton);
-            this.Name = "DisplayQuote";
-            this.Text = "DisplayQuote";
+            this.Name = "SearchQuote";
+            this.Text = "SearchQuote";
+            this.Load += new System.EventHandler(this.SearchQuote_Load);
             this.ResumeLayout(false);
 
         }
