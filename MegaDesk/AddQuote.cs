@@ -16,5 +16,13 @@ namespace MegaDesk
         {
             InitializeComponent();
         }
+
+
+        private void cancelButton_Click(object sender, EventArgs e)
+        {
+            var mainMenu = (MegaDesk)Tag;
+            mainMenu.Show();
+            Close();
+        }
     }
 }
