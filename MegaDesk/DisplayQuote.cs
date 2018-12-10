@@ -19,7 +19,7 @@ namespace MegaDesk
 
         private void backButton_Click(object sender, EventArgs e)
         {
-            var mainMenu = (MegaDesk)Tag;
+            var mainMenu = new MainMenu();
             mainMenu.Show();
             Close();
         }
