@@ -22,7 +22,7 @@ namespace MegaDesk
             //_mainMenu = mainMenu;
 
             //set default state
-            comboSurfaceMaterial.SelectedIndex = 0;
+            //comboSurfaceMaterial.SelectedIndex = 0;
             //loadGrid();
 
         }
